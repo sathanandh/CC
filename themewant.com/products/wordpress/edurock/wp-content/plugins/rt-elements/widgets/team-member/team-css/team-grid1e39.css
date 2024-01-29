@@ -1,0 +1,97 @@
+:root {
+  --bodyFont: "Inter", sans-serif;
+  --titleFont: "Hind", sans-serif;
+  --transition: .3s;
+  --primaryColor: #5f2ded;
+  --secondaryColor: #F2277E;
+  --whiteColor: #ffffff;
+  --titleColor: #000;
+  --hoverColor: #5f2ded;
+  --bodyColor: #5f6c76;
+  --btnColor: #5f2ded;
+  --blackColor2: #191B1E;
+  --darkdeep4: #949392;
+  --darkblack: #0C0E2B;
+  --naveBlue: #17093e;
+}
+
+.team-grid-style1 .team-item {
+  overflow: visible;
+  text-align: center;
+}
+.team-grid-style1 .team-item .team-inner-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.team-grid-style1 .team-item .team-inner-wrap .image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content {
+  margin: 0;
+  padding: 20px 0 20px;
+  position: unset;
+  opacity: 1;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content h3.team-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content h3.team-name a {
+  text-decoration: none;
+  color: var(--bodyColor);
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 600px;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content h3.team-name a:hover {
+  color: var(--primaryColor);
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content span.team-title {
+  font-family: var(--titleFont);
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--bodyColor);
+  margin-bottom: 3px;
+  display: block;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content .social-icons {
+  display: flex;
+  transition: 0.3s;
+  flex-flow: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content .social-icons a {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  background: #fff;
+  color: #949392;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content .social-icons a i {
+  color: #949392;
+  background: transparent;
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content .social-icons a:hover {
+  background: var(--primaryColor);
+}
+.team-grid-style1 .team-item .team-inner-wrap .team-content .social-icons a:hover i {
+  color: #fff;
+}
+.team-grid-style1 .team-item .team-inner-wrap:hover .social-icons {
+  right: 25px;
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=team-grid.css.map */

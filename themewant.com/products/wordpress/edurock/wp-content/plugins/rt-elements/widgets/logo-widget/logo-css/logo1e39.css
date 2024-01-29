@@ -1,0 +1,38 @@
+:root {
+  --bodyFont: "Inter", sans-serif;
+  --titleFont: "Hind", sans-serif;
+  --transition: .3s;
+  --primaryColor: #5f2ded;
+  --secondaryColor: #F2277E;
+  --whiteColor: #ffffff;
+  --titleColor: #000;
+  --hoverColor: #5f2ded;
+  --bodyColor: #5f6c76;
+  --btnColor: #5f2ded;
+  --blackColor2: #191B1E;
+  --darkdeep4: #949392;
+  --darkblack: #0C0E2B;
+  --naveBlue: #17093e;
+}
+
+/*Logo CSS-----------------
+--------------------------*/
+.rt-grid-figure .logo-img {
+  text-align: center;
+}
+.rt-grid-figure .logo-img a {
+  transition: all 0.5s;
+}
+.rt-grid-figure .logo-img img {
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+.rt-grid-figure .logo-img:hover img {
+  opacity: 1;
+}
+.rt-grid-figure .logo-img:hover a.back {
+  display: block;
+}
+.rt-grid-figure .logo-img:hover a.back-exists {
+  display: none;
+}/*# sourceMappingURL=logo.css.map */
